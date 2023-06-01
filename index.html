@@ -1,205 +1,1010 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>AKM ORIGINALS</title>
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <script type="module" src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script type="module" crossorigin src="assets/index-d249dd35.js"></script>
-    <link rel="stylesheet" href="assets/index-ad2972ca.css">
-  </head>
-  <body>
-    <div class="preloader">
-      <div class="preloader__inner">
-        <img src="assets/preload-akm-4fc312f1.svg" alt="akm">
-        <img src="assets/preload-orig-99f7d63f.svg" alt="akm">
-        <img src="assets/preload-bracket-18e9133a.svg" alt="akm">
-      </div>
-      <div class="preloader__agency">
-        <img src="assets/preload-p-73cab4ad.svg" alt="progressive">
-        <img src="assets/preload-m-3ae1a0a4.svg" alt="marketing">
-        <img src="assets/preload-a-b9b6a644.svg" alt="agency">
+
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Your Perconal Agent Technology</title>
+</head>
+
+<body class="page">
+    <div class="wrapper">
+        <header id="top" class="header container">
+            <div class="header__inner">
+    <a href="/" class="header__logo">
+        <img src="img/logo-dark.svg" alt="Your Personal Agent Technology">
+    </a>
+
+    <div class="menu">
+        <nav class="nav">
+            <ul class="nav__list">
+                <li>
+                    <a href="#service" class="nav__link">услуги</a>
+                    <a href="#team" class="nav__link">команда</a>
+                    <a href="#process" class="nav__link">процесс</a>
+                </li>
+                <li>
+                    <a href="#feedback" class="nav__link">отзывы</a>
+                    <a href="#blog" class="nav__link">блог</a>
+                    <a href="#contacts" class="nav__link">контакты</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header-buttons">
+            <a target="_blank" href="https://t.me/ypacrew">
+                <img src="img/tg-icon.svg" alt="Telegram">
+            </a>
+            <a href="callto:+7 999 735-09-02">
+                <img src="img/phone-icon.svg" alt="Phone">
+            </a>
+        </div>
+    </div>
+
+
+    <button class="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+</div>
+
+        </header>
+        <main class="main content">
+            <section class="cover container">
+                <h1 class="cover__title">
+                    <span class="js-cover-text stroke">We are</span>
+                    <span class="js-cover-text">Your</span>
+                    <span class="js-cover-text">Personal</span>
+                    <span class="js-cover-text">Agents</span>
+                    <span class="js-cover-text stroke">crew.</span>
+                </h1>
+                <p class="cover__subtitle subtitle-text">Мы команда частных рекрутеров. Профессиональный подбор сотрудников для вашей компании в короткие сроки.</p>
+                <button class="cover__cta js-cta-button button button__circle button__circle-light"><span>оставить заявку</span></button>
+            </section>
+            <section id="service" class="service container">
+                <h2 class="descriptor"><span>услуги</span></h2>
+                <ul class="service__list">
+                    <li class="service__item service__item-xl">
+                        <div class="service__item-summary">
+                            <h3>точечный подбор</h3>
+                            <p>от 65% месячного оклада специалиста</p>
+                        </div>
+                        <div class="service__item-details">
+                            Подбор узконаправленных и высококвалифицированных специалистов. CPO, CTO, Team Leads, CFO и другие специалисты, готовые помочь Вашему бизнесу.
+                        </div>
+                    </li>
+                    <li class="service__item">
+                        <div class="service__item-summary">
+                            <h3>пакет подбора</h3>
+                            <p>от 200 000 руб</p>
+                        </div>
+                        <div class="service__item-details">
+                            Подбор необходимого количества сотрудников по фиксированной цене. В нужном профиле — Sales, Support, Developers, Designers.
+                        </div>
+                    </li>
+                    <li class="service__item">
+                        <div class="service__item-summary">
+                            <h3>HR подписка</h3>
+                            <p>от 250 000 руб/мес</p>
+                        </div>
+                        <div class="service__item-details">
+                            Подписка на полный спектр HR сопровождения: найм, onboarding, адаптация, корпоративная культура и все все все.
+                        </div>
+                    </li>
+                    <li class="service__item">
+                        <button class="service__cta js-cta-button button button__light">Запросить консультацию</button>
+                    </li>
+                </ul>
+            </section>
+            <section class="about container">
+                <h2 class=" about__title descriptor"><span>о нас</span></h2>
+                <p class="about__subtitle subtitle-text">Не просто находим, а делаем все, чтобы наиболее подходящий кандидат стал сотрудником вашей компании.</p>
+                <ul class="about__list">
+                    <li class="about__item">
+                        <span class="about__item-out" >0<span id="out-1">3</span></span>
+                        <span class="about__item-text">компании в формате “полного сопровождения”</span>
+                    </li>
+                    <li class="about__item">
+                        <span class="about__item-out" >0<span id="out-2">5</span></span>
+                        <span class="about__item-text">направлений — Mobile Dev, Data Science, HR, C-level, Analytics, Web Development</span>
+                    </li>
+                    <li class="about__item">
+                        <span class="about__item-out"><span id="out-3">100</span>+</span>
+                        <span class="about__item-text">специалистов, которые отработали на проектах не менее одного года</span>
+                    </li>
+                </ul>
+            </section>
+            <section class="advantages container">
+                <h2 class="descriptor"><span>Преимущества</span></h2>
+                <ul class="advantages__list">
+                    <li class="advantages__item js-accordion accordion">
+  <div class="advantages__item-header js-accordion-header accordion__header">
+    <p class="accordion__title">
+      <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1 1H19V19" stroke="#1D1D1D"/>
+        <path d="M19 1L1 19" stroke="#1D1D1D"/>
+      </svg>
+      <span>погружение в компанию</span>
+    </p>
+    <div class="advantages__item-content accordion__content js-accordion-content">
+      <p class="advantages__item-text accordion__text">Нам очень важно познакомиться с командой, чтобы понимать какие Soft Skills кандидата будут приемлемы. «Что для одного токсичность, для другого просто доброе утро».</p>
+      <div class="advantages__item-img accordion__img">
+        <img src="img/advantages_01.svg" alt="погружение в компанию">
       </div>
     </div>
-    <header class="header">
-      <section class="header__inner container">
-        <div class="header__logo logo">
-          <img src="data:image/png;base64,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" alt="AKM ORIGINALS" class="logo__img-name">
-          <img src="data:image/png;base64,UklGRvQCAABXRUJQVlA4WAoAAAAQAAAALAAAFgAAQUxQSJQCAAABkGRt2zFH929UUohtq23btju2bdtp27aNUY847k30IqqiHUTEBJSP3V659dFItTDa1N3Oxps1LwP23h0tlR9XHokcqD6jXy56redv3cKOTW2VZbnQvC6a01sqoWPZWZg7c0MctwJL4EAFM1JussDapN6RHyotUNE6tG73lSfrD4V4OuLyD4idRZmbb1xJs7xoPcyRy4dYdqqeM+KIo0982lpRt9SHhvCCzfHXUJ77X0ohc+Xxuce3W3Nh2xIeLinjSWQnc3/G0wJrVEGaHU0FOwdG5mDpPd/C/FDKuTBSKwyd3UPl+UK2QCoUnBrFpYzAhCUEQARkQGKSAhKKmwLoNgVAQ1BMrJKCZMVZAtVuE5wAAVA1AAnNwAAkXJuSwQQFJ9cik5WdJlo6x42GWDLXMO/e6QqKjY0xBy+MxveeH47P4gLyCVJPXS9TNBdZv1ny12q9ep4187llHeMTNaBQZDIo/yhnzOMOpHlLglPaphu52dbts49Fptytu6g+HRqWT10+E+ReGiE3OI4fTl+3fUHo3eoVSE49RoZZZr/Wfi5vwZGsdMb4Th0olLgzyFWenYq6DEOLZMVpny9sXLkLDs9dwzmz3Lpy2b6rZ1LYayNbypB9R8kdvZyGhmsFwNQAgykUEAEkBCcREAFkwEAGBRAQQUQCA900NQQmqBp2UE0LAgIIio4KClMsMnGB6Zw9F9JOXwpk8FSxeRzPpaT2nXffYXBAk6fg4mtSi7FWWjrQzf8hCanJ54jqPpbqO4JtcnOWrY3LYUdVqv/boe0xm0vmb9sX6K0jdtxTdSbfevpU3dEleH4MqoPwdPPf/KO7oFzdlCHZhMk1QbXvvfLzC3hVm+WVIRY1Cw9rzmWzYg8WJg9WUDggOgAAADADAJ0BKi0AFwA+USKORSOiIRVUADgFBLSAACj/ZmWcEMAA/vyoC7/+wd//Q6/91g/+2af/SH6AAAA=" alt="PROGRESSIVE MARKETING AGENCY" class="logo__img-pma">
+  </div>
+</li>
+                    <li class="advantages__item js-accordion accordion">
+  <div class="advantages__item-header js-accordion-header accordion__header">
+    <p class="accordion__title">
+      <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1 1H19V19" stroke="#1D1D1D"/>
+        <path d="M19 1L1 19" stroke="#1D1D1D"/>
+      </svg>
+      <span>команда под идею</span>
+    </p>
+    <div class="advantages__item-content accordion__content js-accordion-content">
+      <p class="advantages__item-text accordion__text">Если у вас есть идея, но нет людей для ее реализации — мы подберем подходящих специалистов.</p>
+      <div class="advantages__item-img accordion__img">
+        <img src="img/advantages_02.svg" alt="команда под идею">
+      </div>
+    </div>
+  </div>
+</li>
+                    <li class="advantages__item js-accordion accordion">
+  <div class="advantages__item-header js-accordion-header accordion__header">
+    <p class="accordion__title">
+      <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1 1H19V19" stroke="#1D1D1D"/>
+        <path d="M19 1L1 19" stroke="#1D1D1D"/>
+      </svg>
+      <span>бесплатная консультация</span>
+    </p>
+    <div class="advantages__item-content accordion__content js-accordion-content">
+      <p class="advantages__item-text accordion__text">По всем вопросам. При необходимости мы помогаем выстроить внутренние процессы подбора и адаптации персонала, что значительно облегчает масштабирование команды.</p>
+      <div class="advantages__item-img accordion__img">
+        <img src="img/advantages_03.svg" alt="бесплатная консультация">
+      </div>
+    </div>
+  </div>
+</li>
+                    <li class="advantages__item js-accordion accordion">
+  <div class="advantages__item-header js-accordion-header accordion__header">
+    <p class="accordion__title">
+      <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1 1H19V19" stroke="#1D1D1D"/>
+        <path d="M19 1L1 19" stroke="#1D1D1D"/>
+      </svg>
+      <span>наличие гарантий</span>
+    </p>
+    <div class="advantages__item-content accordion__content js-accordion-content">
+      <p class="advantages__item-text accordion__text">Если кандидат в течение 2 месяцев после начала работы не подошел Вашей компании, мы подберем другого специалиста.</p>
+      <div class="advantages__item-img accordion__img">
+        <img src="img/advantages_04.svg" alt="наличие гарантий">
+      </div>
+    </div>
+  </div>
+</li>
+
+                </ul>
+            </section>
+            <section class="banner">
+                <div class="container">
+                    <div class="banner__inner">
+                        <div class="banner__content">
+                            <p class="banner__text">
+                                <span>Cкидка 20&nbsp;% на&nbsp;наши услуги.</span>
+                                <span>На “Точечный подбор” от 5 сотрудников в месяц</span>
+                            </p>
+                            <div class="banner__btn-wrapper">
+                                <button class="banner__btn button button__dark js-cta-button">оставить заявку</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="team" class="team container">
+                <h2 class="team__title descriptor"><span>Команда</span></h2>
+                <p class="team__subtitle subtitle-text"><span>Your Personal Agent — </span><span>ваши персональные</span> агенты и представители на обширном IT рынке. Наш главный принцип — соблюдение интересов сотрудников и компаний.</p>
+                <p class="team__caption">Каждый из нас более 5 лет занимается рекрутингом IT специалистов широкого профиля: от junior mobile developer до специалистов C-level.Сейчас мы объединились в команду, которая выходит на рынок с накопленным опытом, чтобы помогать компаниям пополнять свои ряды нужными им специалистами в кратчайшие сроки и грамотно выстраивать корпоративную культуру.</p>
+                    <div class="team__sliders">
+                        <div class="team__slider js-swiper-team">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide team-slide">
+    <div class="team-slide__poster">
+        <div class="team-slide__img">
+            <img src="img/team_01.webp" alt="Владислав Санников">
         </div>
-        <div class="header__inner-inn" id="menu">
-          <nav class="header__nav nav nav__links">
-            <ul class="nav__list nav__list-anchors">
-              <li class="nav__item"><a href="#about" class="nav__link">about us</a></li>
-              <li class="nav__item"><a href="#services" class="nav__link">services</a></li>
-              <li class="nav__item"><a href="#work" class="nav__link">work & projects</a></li>
-              <li class="nav__item"><a href="#contacts" class="nav__link">contacts</a></li>
-            </ul>
-          </nav>
-          <nav class="header__nav nav nav__social">
-            <ul class="nav__list nav__list-social">
-              <li class="nav__item-social"><a href="https://wa.me/6281246341693" target="_blank" class="nav__link-social"><img src="assets/wa-b9aa4960.svg" alt="wa"></a></li>
-              <li class="nav__item-social"><a href="https://instagram.com/akm.originals?igshid=YWJhMjlhZTc=" target="_blank" class="nav__link-social"><img src="assets/instagram-0caaa836.svg" alt="instagram"></a></li>
-              <li class="nav__item-social"><a href="https://t.me/LabelProd" target="_blank" class="nav__link-social"><img src="assets/tg-05b7b9ce.svg" alt="telegram"></a></li>
-            </ul>
-          </nav>
-          <a href="#contacts" class="header__cta cta__link">get in touch</a>
-          <span class="header__mail mail__link">
-            <a href="mailto:info@akm-originals.com" target="_blank">info@akm-originals.com</a>
-          </span>
+        <p class="team-slide__name">Владислав Санников</p>
+        <p class="team-slide__position">Founder</p>
+    </div>
+    <div class="team-slide__quote">
+        <p class="team-slide__text"><span>Более 5 лет в HR. Разносторонний опыт в подборе сотрудников: от sales manager до CTO.</span></p>
+    </div>
+</div>
+
+                                <div class="swiper-slide team-slide">
+    <div class="team-slide__poster">
+        <div class="team-slide__img">
+            <img src="img/team_02.webp" alt="Валерия Полугодина">
         </div>
-        <span class="header__burger" id="switcher"></span>
-      </section>
-      <div class="header__border"></div>
-    </header>
-    <main class="main" id="main">
-      <section class="main__heading heading">
-        <div class="heading__inner">
-          <h1>Good business is the best art</h1>
-          <span class="increase">Good business is the best art</span>
+        <p class="team-slide__name">Валерия Полугодина</p>
+        <p class="team-slide__position">Middle IT Recruiter</p>
+    </div>
+    <div class="team-slide__quote">
+        <p class="team-slide__text"><span>1,5 года в IT рекрутинге. Люди — это мой источник вдохновения. Общение с ними заряжает меня на написание картин.</span></p>
+    </div>
+</div>
+
+                                <div class="swiper-slide team-slide">
+    <div class="team-slide__poster">
+        <div class="team-slide__img">
+            <img src="img/team_03.webp" alt="Алсу Сафина">
         </div>
-        <p class="caption"><span class="js-animated">Social media marketing</span></p>
-      </section>
-      <section class="main__about about container" id="about">
-        <h2 class="about__heading animated-title">
-          <span>About Us</span>
-          <img class="js-animated-title-bg" src="assets/gradient-bg-bb1a3d9f.png" alt="1">
-        </h2>
-        <div class="about__text">
-          <p class="js-animated">Years of experience in the advertising business gives us opportunities to find new people, new ideas and to create solutions all globally through communication between our brand and the customers, blurring the line between online and offline, creating bright, efficient and innovating advertising for our partners.</p>
-          <p class="js-animated">AKM a unique combination of local expertise, connections and successful experience as well as the global capabilities of the largest international network.</p>
-          <p class="js-animated">We work to ensure that your business finds customers all over the world!</p>
+        <p class="team-slide__name">Алсу Сафина</p>
+        <p class="team-slide__position">Junior IT Recruiter / UI/UX Designer</p>
+    </div>
+    <div class="team-slide__quote">
+        <p class="team-slide__text"><span>1 год в IT рекрутинге. И стильный интерфейс создать, и подходящего сотрудника подобрать — могу, умею, практикую.</span></p>
+    </div>
+</div>
+
+                                <div class="swiper-slide team-slide">
+    <div class="team-slide__poster">
+        <div class="team-slide__img">
+            <img src="img/team_04.webp" alt="Андрей Арбузов">
         </div>
-      </section>
-      <section class="main__services services container" id="services">
-        <div class="services__heading">
-          <h2 class="services__title title-h2 animated-title">
-            <span>Services</span>
-            <img class="js-animated-title-bg" src="assets/gradient-bg-bb1a3d9f.png" alt="1">
-          </h2>
-          <p class="services__caption caption"><span class="js-animated">what do we offer</span></p>
-          <a href="#contacts" class="services__link cta__link">Get in touch</a>
+        <p class="team-slide__name">Андрей Арбузов</p>
+        <p class="team-slide__position">Lead Recruiter</p>
+    </div>
+    <div class="team-slide__quote">
+        <p class="team-slide__text"><span>3 года в IT рекрутинге. Знаю,<br> где найти того, кто Вам нужен.</span></p>
+    </div>
+</div>
+
+                                <div class="swiper-slide team-slide">
+    <div class="team-slide__poster">
+        <div class="team-slide__img">
+            <img src="img/team_05.webp" alt="Григорий Гимубрг">
         </div>
-        <div class="services__content">
-          <img src="assets/bracket-5a61967b.svg" alt="" class="slider__brecket slider__brecket--left">
-          <img src="assets/bracket-5a61967b.svg" alt="" class="slider__brecket slider__brecket--right">
-          <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide"><img src="assets/s1-5a5ba6be.png" alt="1"></div>
-              <div class="swiper-slide"><img src="assets/s2-78f115f6.png" alt="1"></div>
-              <div class="swiper-slide"><img src="assets/s3-44fd7827.png" alt="1"></div>
-              <div class="swiper-slide"><img src="assets/s4-db2dad06.png" alt="1"></div>
-              <div class="swiper-slide"><img src="assets/s5-df664a29.png" alt="1"></div>
-              <div class="swiper-slide"><img src="assets/s6-fc24120e.png" alt="1"></div>
-              <div class="swiper-slide"><img src="assets/s7-c4cf98ac.png" alt="1"></div>
-              <div class="swiper-slide"><img src="assets/s8-c890c03b.png" alt="1"></div>
-              <div class="swiper-slide"><img src="assets/s9-d9fce7aa.png" alt="1"></div>
-              <div class="swiper-slide"><img src="assets/s10-8ebcc7e3.png" alt="1"></div>
-              <div class="swiper-slide"><img src="assets/s11-18d56d2c.png" alt="1"></div>
+        <p class="team-slide__name">Григорий Гимубрг</p>
+        <p class="team-slide__position">Sourcer</p>
+    </div>
+    <div class="team-slide__quote">
+        <p class="team-slide__text"><span>3 года в IT рекрутинге.<br> Я просто умею искать.</span></p>
+    </div>
+</div>
+
+                                <div class="swiper-slide team-slide">
+    <div class="team-slide__poster">
+        <div class="team-slide__img">
+            <img src="img/team_01.webp" alt="Владислав Санников">
+        </div>
+        <p class="team-slide__name">Владислав Санников</p>
+        <p class="team-slide__position">Founder</p>
+    </div>
+    <div class="team-slide__quote">
+        <p class="team-slide__text"><span>Более 5 лет в HR. Разносторонний опыт в подборе сотрудников: от sales manager до CTO.</span></p>
+    </div>
+</div>
+
+                                <div class="swiper-slide team-slide">
+    <div class="team-slide__poster">
+        <div class="team-slide__img">
+            <img src="img/team_02.webp" alt="Валерия Полугодина">
+        </div>
+        <p class="team-slide__name">Валерия Полугодина</p>
+        <p class="team-slide__position">Middle IT Recruiter</p>
+    </div>
+    <div class="team-slide__quote">
+        <p class="team-slide__text"><span>1,5 года в IT рекрутинге. Люди — это мой источник вдохновения. Общение с ними заряжает меня на написание картин.</span></p>
+    </div>
+</div>
+
+                                <div class="swiper-slide team-slide">
+    <div class="team-slide__poster">
+        <div class="team-slide__img">
+            <img src="img/team_03.webp" alt="Алсу Сафина">
+        </div>
+        <p class="team-slide__name">Алсу Сафина</p>
+        <p class="team-slide__position">Junior IT Recruiter / UI/UX Designer</p>
+    </div>
+    <div class="team-slide__quote">
+        <p class="team-slide__text"><span>1 год в IT рекрутинге. И стильный интерфейс создать, и подходящего сотрудника подобрать — могу, умею, практикую.</span></p>
+    </div>
+</div>
+
+                                <div class="swiper-slide team-slide">
+    <div class="team-slide__poster">
+        <div class="team-slide__img">
+            <img src="img/team_04.webp" alt="Андрей Арбузов">
+        </div>
+        <p class="team-slide__name">Андрей Арбузов</p>
+        <p class="team-slide__position">Lead Recruiter</p>
+    </div>
+    <div class="team-slide__quote">
+        <p class="team-slide__text"><span>3 года в IT рекрутинге. Знаю,<br> где найти того, кто Вам нужен.</span></p>
+    </div>
+</div>
+
+                                <div class="swiper-slide team-slide">
+    <div class="team-slide__poster">
+        <div class="team-slide__img">
+            <img src="img/team_05.webp" alt="Григорий Гимубрг">
+        </div>
+        <p class="team-slide__name">Григорий Гимубрг</p>
+        <p class="team-slide__position">Sourcer</p>
+    </div>
+    <div class="team-slide__quote">
+        <p class="team-slide__text"><span>3 года в IT рекрутинге.<br> Я просто умею искать.</span></p>
+    </div>
+</div>
+
+                            </div>
+                        </div>
+                        <div class="team__slider-thumbnails js-swiper-thumbnails">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide team__slider-thumbnail">
+  <div class="team__slider-thumbnail-img">
+    <img src="img/team_01.webp" alt="YPA">
+  </div>
+  <p class="team__slider-thumbnail-name">Владислав Санников</p>
+  <p class="team__slider-thumbnail-position">Founder</p>
+</div>
+                                <div class="swiper-slide team__slider-thumbnail">
+  <div class="team__slider-thumbnail-img">
+    <img src="img/team_02.webp" alt="YPA">
+  </div>
+  <p class="team__slider-thumbnail-name">Валерия Полугодина</p>
+  <p class="team__slider-thumbnail-position">Middle IT Recruiter</p>
+</div>
+                                <div class="swiper-slide team__slider-thumbnail">
+  <div class="team__slider-thumbnail-img">
+    <img src="img/team_03.webp" alt="YPA">
+  </div>
+  <p class="team__slider-thumbnail-name">Алсу Сафина</p>
+  <p class="team__slider-thumbnail-position">Junior IT Recruiter / UI/UX Designer</p>
+</div>
+                                <div class="swiper-slide team__slider-thumbnail">
+  <div class="team__slider-thumbnail-img">
+    <img src="img/team_04.webp" alt="YPA">
+  </div>
+  <p class="team__slider-thumbnail-name">Андрей Арбузов</p>
+  <p class="team__slider-thumbnail-position">Lead Recruiter</p>
+</div>
+                                <div class="swiper-slide team__slider-thumbnail">
+  <div class="team__slider-thumbnail-img">
+    <img src="img/team_05.webp" alt="YPA">
+  </div>
+  <p class="team__slider-thumbnail-name">Григорий Гимубрг</p>
+  <p class="team__slider-thumbnail-position">Sourcer</p>
+</div>
+                                <div class="swiper-slide team__slider-thumbnail">
+  <div class="team__slider-thumbnail-img">
+    <img src="img/team_01.webp" alt="YPA">
+  </div>
+  <p class="team__slider-thumbnail-name">Владислав Санников</p>
+  <p class="team__slider-thumbnail-position">Founder</p>
+</div>
+                                <div class="swiper-slide team__slider-thumbnail">
+  <div class="team__slider-thumbnail-img">
+    <img src="img/team_02.webp" alt="YPA">
+  </div>
+  <p class="team__slider-thumbnail-name">Валерия Полугодина</p>
+  <p class="team__slider-thumbnail-position">Middle IT Recruiter</p>
+</div>
+                                <div class="swiper-slide team__slider-thumbnail">
+  <div class="team__slider-thumbnail-img">
+    <img src="img/team_03.webp" alt="YPA">
+  </div>
+  <p class="team__slider-thumbnail-name">Алсу Сафина</p>
+  <p class="team__slider-thumbnail-position">Junior IT Recruiter / UI/UX Designer</p>
+</div>
+                                <div class="swiper-slide team__slider-thumbnail">
+  <div class="team__slider-thumbnail-img">
+    <img src="img/team_04.webp" alt="YPA">
+  </div>
+  <p class="team__slider-thumbnail-name">Андрей Арбузов</p>
+  <p class="team__slider-thumbnail-position">Lead Recruiter</p>
+</div>
+                                <div class="swiper-slide team__slider-thumbnail">
+  <div class="team__slider-thumbnail-img">
+    <img src="img/team_05.webp" alt="YPA">
+  </div>
+  <p class="team__slider-thumbnail-name">Григорий Гимубрг</p>
+  <p class="team__slider-thumbnail-position">Sourcer</p>
+</div>
+                            </div>
+                        </div>
+                    </div>
+                <button class="jopa">XOX</button>
+            </section>
+            <section id="process" class="process container">
+                <h2 class="process__title descriptor"><span>Процесс работы</span></h2>
+                <p class="process__subtitle subtitle-text"><span>Мы стараемся</span><span>по максимуму</span> сократить время подбора, поэтому не внедряем большого количества этапов на старте.</p>
+                <div class="process__inner">
+                    <ul class="process__logos">
+                        <li class="process__letter js-letter-filled">
+  <svg viewBox="0 0 485 266" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M171.053 1.57602L284.05 1.38769L230.058 92.2233L229.159 93.7343H230.917H232.079H232.389L232.644 93.5597L367.665 1.23026L480.86 1.00718L214.135 160.137L214.034 160.197L213.95 160.279L106.935 264.351H2.96394L108.503 161.79L108.659 161.639L108.738 161.436L171.053 1.57602Z" fill="#F5F5F5" stroke="#1D1D1D" stroke-width="2"/>
+  </svg>
+</li>
+                        <li class="process__letter js-letter-filled">
+  <svg viewBox="0 0 485 266" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M171.053 1.57602L284.05 1.38769L230.058 92.2233L229.159 93.7343H230.917H232.079H232.389L232.644 93.5597L367.665 1.23026L480.86 1.00718L214.135 160.137L214.034 160.197L213.95 160.279L106.935 264.351H2.96394L108.503 161.79L108.659 161.639L108.738 161.436L171.053 1.57602Z" fill="#F5F5F5" stroke="#1D1D1D" stroke-width="2"/>
+  </svg>
+</li>
+                        <li class="process__letter js-letter-filled">
+  <svg viewBox="0 0 485 266" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M171.053 1.57602L284.05 1.38769L230.058 92.2233L229.159 93.7343H230.917H232.079H232.389L232.644 93.5597L367.665 1.23026L480.86 1.00718L214.135 160.137L214.034 160.197L213.95 160.279L106.935 264.351H2.96394L108.503 161.79L108.659 161.639L108.738 161.436L171.053 1.57602Z" fill="#F5F5F5" stroke="#1D1D1D" stroke-width="2"/>
+  </svg>
+</li>
+                        <li class="process__letter js-letter-filled">
+  <svg viewBox="0 0 485 266" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M171.053 1.57602L284.05 1.38769L230.058 92.2233L229.159 93.7343H230.917H232.079H232.389L232.644 93.5597L367.665 1.23026L480.86 1.00718L214.135 160.137L214.034 160.197L213.95 160.279L106.935 264.351H2.96394L108.503 161.79L108.659 161.639L108.738 161.436L171.053 1.57602Z" fill="#F5F5F5" stroke="#1D1D1D" stroke-width="2"/>
+  </svg>
+</li>
+                        <li class="process__letter js-letter-filled">
+  <svg viewBox="0 0 485 266" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M171.053 1.57602L284.05 1.38769L230.058 92.2233L229.159 93.7343H230.917H232.079H232.389L232.644 93.5597L367.665 1.23026L480.86 1.00718L214.135 160.137L214.034 160.197L213.95 160.279L106.935 264.351H2.96394L108.503 161.79L108.659 161.639L108.738 161.436L171.053 1.57602Z" fill="#F5F5F5" stroke="#1D1D1D" stroke-width="2"/>
+  </svg>
+</li>
+                    </ul>
+                    <ul class="process__list">
+                        <li class="process__item js-accordion accordion">
+  <div class="process__item-header js-accordion-header-2 accordion__header">
+    <p class="process__item-title accordion__title">
+      <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1 1H19V19" stroke="#1D1D1D"/>
+        <path d="M19 1L1 19" stroke="#1D1D1D"/>
+      </svg>
+      <span>снятие заявки</span>
+      <span>01</span>
+    </p>
+    <div class="process__item-content accordion__content js-accordion-content">
+      <p class="process__item-text">
+        Довольно стандартный и шаблонный процесс. В ходе него мы составляем профиль кандидата, профиль вакансии, профиль компании, расспрашиваем вас о команде и о том, как выглядит рабочий процесс. Чаще всего проводим этот этап с нанимающим менеджером (им может быть старший специалист, Team Lead, CTO или любой участник команды, отвечающий за текущий найм).
+      </p>
+    </div>
+  </div>
+</li>
+                        <li class="process__item js-accordion accordion">
+  <div class="process__item-header js-accordion-header-2 accordion__header">
+    <p class="process__item-title accordion__title">
+      <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1 1H19V19" stroke="#1D1D1D"/>
+        <path d="M19 1L1 19" stroke="#1D1D1D"/>
+      </svg>
+      <span>Первичный отбор кандидатов</span>
+      <span>02</span>
+    </p>
+    <div class="process__item-content accordion__content js-accordion-content">
+      <p class="process__item-text">
+        Получив всю необходимую информацию на первом этапе, мы начинаем первичный отбор кандидатов по нашей базе, вакансиям и базам резюме. По его итогам присылаем вам от 3-х до 5-ти резюме кандидатов, чтобы удостовериться, что они подходят под запрос.
+      </p>
+    </div>
+  </div>
+</li>
+                        <li class="process__item js-accordion accordion">
+                            <div class="process__item-header js-accordion-header-2 accordion__header">
+                                <p class="process__item-title accordion__title">
+                                    <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1H19V19" stroke="#1D1D1D"/>
+                                        <path d="M19 1L1 19" stroke="#1D1D1D"/>
+                                    </svg>
+                                    <span>Предоставление кандидатов</span>
+                                    <span>03</span>
+                                </p>
+                                <div class="process__item-content accordion__content js-accordion-content">
+                                    <p class="process__item-text">
+                                        На этом этапе возможны два сценария:
+                                    </p>
+                                    <ul>
+                                        <li>Мы присылаем Вам подходящие резюме кандидатов до общения с ними, чтобы вы могли выбрать интересных кандидатов из большего количества соискателей.</li>
+                                        <li>Мы присылаем Вам кандидатов, которые прошли нашу первичную оценку и ознакомительное интервью. В данном случае поток кандидатов будет меньше, но вы получите полную картину по каждому из них.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="process__item js-accordion accordion">
+  <div class="process__item-header js-accordion-header-2 accordion__header">
+    <p class="process__item-title accordion__title">
+      <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1 1H19V19" stroke="#1D1D1D"/>
+        <path d="M19 1L1 19" stroke="#1D1D1D"/>
+      </svg>
+      <span>Технический этап</span>
+      <span>04</span>
+    </p>
+    <div class="process__item-content accordion__content js-accordion-content">
+      <p class="process__item-text">
+        Этот этап мы проводим совместно с вами. Назначаем и контролируем процесс прохождения технического собеседования кандидата с нанимающим специалистом. Снимаем с вас всю боль по планированию и ведению техзвонка.
+      </p>
+    </div>
+  </div>
+</li>
+                        <li class="process__item js-accordion accordion">
+  <div class="process__item-header js-accordion-header-2 accordion__header">
+    <p class="process__item-title accordion__title">
+      <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1 1H19V19" stroke="#1D1D1D"/>
+        <path d="M19 1L1 19" stroke="#1D1D1D"/>
+      </svg>
+      <span>Выход кандидата</span>
+      <span>05</span>
+    </p>
+    <div class="process__item-content accordion__content js-accordion-content">
+      <p class="process__item-text">
+        При необходимости собираем у кандидата все необходимы документы и контролируем его выход на работу. После этого этапа в течении двух месяцев собираем фидбек от вас и кандидата о ходе адаптации и всех возникающих вопросах.
+      </p>
+    </div>
+  </div>
+</li>
+                    </ul>
+                </div>
+            </section>
+            <section id="feedback" class="feedback container">
+                <h2 class="feedback__title descriptor"><span>Отзывы клиентов</span></h2>
+                <div class="feedback__inner">
+                    <p class="feedback__name js-feedback-animated"><a href="#">SapphireBet</a></p>
+                    <p class="feedback__name js-feedback-animated"><a href="https://friendsonly.me/">FriendsOnly</a></p>
+                    <p class="feedback__name js-feedback-animated"><a href="#">Easy-X</a></p>
+                    <p class="feedback__name js-feedback-animated"><a href="https://mentalgrowth.app/" target="_blank">Mental Growth</a></p>
+                    <p class="js-feedback-animated">
+                        <button class="feedback__cta button button__circle button__circle-dark js-cta-button"><span>стать клиентом</span></button>
+                    </p>
+                </div>
+                <ul class="feedback__list">
+                    <li class="feedback__item">
+                        <div class="feedback__info">
+                            <div class="feedback__item-img">
+                                <img src="img/feedback_01.png" alt="">
+                            </div>
+                            <div>
+                                <p class="feedback__item-name">Александр Копачев</p>
+                                <p class="feedback__item-position">CTO Mental Growth </p>
+                            </div>
+                        </div>
+                        <p class="feedback__review">
+                            Начали работать с YPA по рекомендации знакомых. Понравилась скорость работы и подход. За 3-4 дня нашли нам сильного Swift разработчика. Будем работать дальше!
+                        </p>
+                    </li>
+                    <li class="feedback__item">
+                        <div class="feedback__info">
+                            <div class="feedback__item-img">
+                                <img src="img/feedback_02.png" alt="">
+                            </div>
+                            <div>
+                                <p class="feedback__item-name">Максим Ковалев</p>
+                                <p class="feedback__item-position">Founder of FriendsOnly.me</p>
+                            </div>
+                        </div>
+                        <p class="feedback__review">
+                            Все очень круто! Уже давно работаем с ребятами не только в вопросах найма. Начинали с ними еще на стадии MVP и ребята собрали нам львиную долю команды.
+                        </p>
+                    </li>
+                </ul>
+            </section>
+            <section id="blog" class="blog container">
+                <h2 class="descriptor"><span>Блог</span></h2>
+                <div class="blog__slider js-swiper-blog">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide blog-slide">
+  <div class="blog-slide__img">
+    <img src="img/blog_01.webp" alt="С чем его едят, этот ваш IT рекрутинг?">
+  </div>
+  <div class="blog-slide__info">
+    <h3 class="blog-slide__title">С чем его едят, этот ваш IT рекрутинг?</h3>
+    <p class="blog-slide__date">Март 13, 2023</p>
+    <p class="blog-slide__preview">Есть запрос — найти сотрудника. Компания абсолютно спокойно, не прибегая к помощи рекрутера, может с этим запросом справиться. Всего-то нужно разместить вакансию на специальном сайте(благо сейчас таких хватает), подождать пару дней и с довольным лицом выбирать себе сотрудника из откликнувшихся. Ну что в этом сложного?...</p>
+    <a class="blog-slide__link link _underline" href="https://vc.ru/u/1578780-vladislav-sannikov-x-ypa/633324-s-chem-ego-edyat-etot-vash-it-rekruting" target="_blank">Читать</a>
+    <a href="https://vc.ru/u/1578780-vladislav-sannikov-x-ypa" target="_blank" class="blog-slide__vc blog-slide__vc-desk link secondary">
+      VC.RU
+      <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0.5 1.22949H11.5V12.2295" stroke="#1D1D1D"/>
+        <path d="M11.5 1.22949L0.5 12.2295" stroke="#1D1D1D"/>
+      </svg>
+
+
+
+    </a>
+  </div>
+</div>
+                        <div class="swiper-slide blog-slide">
+  <div class="blog-slide__img">
+    <img src="img/blog_02.webp" alt="«Добрый день! Есть вакансия с Вашим стэком. Интересно?».">
+  </div>
+  <div class="blog-slide__info">
+    <h3 class="blog-slide__title">«Добрый день! Есть вакансия с Вашим стэком. Интересно?».</h3>
+    <p class="blog-slide__date">Март 14, 2023</p>
+    <p class="blog-slide__preview">Столкнувшись с ситуацией, при которой вы решаетесь на смену работы, не лишним будет актуализировать для себя состояние рынка. За то время, что вы были трудоустроены, много чего могло поменяться. В данной ситуации не лишним было бы иметь 2-3 знакомых рекрутеров, с которыми можно пообщаться и узнать, что вообще сейчас происходит...</p>
+    <a class="blog-slide__link link _underline" href="https://vc.ru/u/1578780-vladislav-sannikov-x-ypa/634537-dobryy-den-est-vakansiya-s-vashim-stekom-interesno-ili-zachem-razrabotchiku-obshchatsya-s-rekruterom" target="_blank">Читать</a>
+    <a href="https://vc.ru/u/1578780-vladislav-sannikov-x-ypa" target="_blank" class="blog-slide__vc blog-slide__vc-desk link secondary">
+      VC.RU
+      <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0.5 1.22949H11.5V12.2295" stroke="#1D1D1D"/>
+        <path d="M11.5 1.22949L0.5 12.2295" stroke="#1D1D1D"/>
+      </svg>
+
+
+
+    </a>
+  </div>
+</div>
+                        <div class="swiper-slide blog-slide">
+  <div class="blog-slide__img">
+    <img src="img/blog_03.webp" alt="Как написать привлекательное резюме по версии YPA.">
+  </div>
+  <div class="blog-slide__info">
+    <h3 class="blog-slide__title">Как написать привлекательное резюме по версии YPA.</h3>
+    <p class="blog-slide__date">Март 15, 2023</p>
+    <p class="blog-slide__preview">Если говорить о наполнении резюме, то мой главный совет для соискателей всегда один: сформулируйте в первую очередь для себя, чем вы хотите заниматься и чем можете быть полезны компании. Нужно понимать, что, при открытии вакансии, компания в первую очередь испытывает потребность в закрытии той или иной болевой точки...</p>
+    <a class="blog-slide__link link _underline" href="https://vc.ru/hr/635679-kak-napisat-privlekatelnoe-rezyume-po-versii-ypa" target="_blank">Читать</a>
+    <a href="https://vc.ru/u/1578780-vladislav-sannikov-x-ypa" target="_blank" class="blog-slide__vc blog-slide__vc-desk link secondary">
+      VC.RU
+      <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0.5 1.22949H11.5V12.2295" stroke="#1D1D1D"/>
+        <path d="M11.5 1.22949L0.5 12.2295" stroke="#1D1D1D"/>
+      </svg>
+
+
+
+    </a>
+  </div>
+</div>
+                        <div class="swiper-slide blog-slide">
+  <div class="blog-slide__img">
+    <img src="img/blog_04.webp" alt="Карьерные консультации: помощь на распутии или проблемы белых людей?">
+  </div>
+  <div class="blog-slide__info">
+    <h3 class="blog-slide__title">Карьерные консультации: помощь на распутии или проблемы белых людей?</h3>
+    <p class="blog-slide__date">Март 20, 2023</p>
+    <p class="blog-slide__preview">Давайте для начала разберемся в происхождении проблемы. Как мы все знаем, спрос рождает предложение. Если бы в какой-то момент времени в большой массе людей не начала возникать потребность в наставлении на путь истинный в карьере, то я бы сейчас писал о другом, а вы не задавались подобным вопросом. Так что опережая...</p>
+    <a class="blog-slide__link link _underline" href="https://vc.ru/hr/638157-karernye-konsultacii-pomoshch-na-rasputii-ili-problemy-oslepitelno-belyh-lyudey" target="_blank">Читать</a>
+    <a href="https://vc.ru/u/1578780-vladislav-sannikov-x-ypa" target="_blank" class="blog-slide__vc blog-slide__vc-desk link secondary">
+      VC.RU
+      <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0.5 1.22949H11.5V12.2295" stroke="#1D1D1D"/>
+        <path d="M11.5 1.22949L0.5 12.2295" stroke="#1D1D1D"/>
+      </svg>
+
+
+
+    </a>
+  </div>
+</div>
+                        <div class="swiper-slide blog-slide">
+  <div class="blog-slide__img">
+    <img src="img/blog_05.webp" alt="Кто нанимает вас на работу? HRD, HRBP и прочие непонятные буковки.">
+  </div>
+  <div class="blog-slide__info">
+    <h3 class="blog-slide__title">Кто нанимает вас на работу? HRD, HRBP и прочие непонятные буковки.</h3>
+    <p class="blog-slide__date">Март 22, 2023</p>
+    <p class="blog-slide__preview">Всем привет! Снова на связи Владислав из YPA. На следующую неделю я готовлю вам первую статью из новой рубрики «ВОТ ВАМ КЕЙС», в которой буду общаться с различными интересными личностями из индустрии, допрашивать их о карьерном пути и подробно разбирать один из кейсов в их практике. В конце концов, сколько...</p>
+    <a class="blog-slide__link link _underline" href="https://vc.ru/u/1578780-vladislav-sannikov-x-ypa/642790-kto-nanimaet-vas-na-rabotu-hrd-hrbp-i-prochie-neponyatnye-bukovki" target="_blank">Читать</a>
+    <a href="https://vc.ru/u/1578780-vladislav-sannikov-x-ypa" target="_blank" class="blog-slide__vc blog-slide__vc-desk link secondary">
+      VC.RU
+      <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0.5 1.22949H11.5V12.2295" stroke="#1D1D1D"/>
+        <path d="M11.5 1.22949L0.5 12.2295" stroke="#1D1D1D"/>
+      </svg>
+
+
+
+    </a>
+  </div>
+</div>
+                        <div class="swiper-slide blog-slide">
+  <div class="blog-slide__img">
+    <img src="img/blog_06.webp" alt="«Сейчас я тебе все объясню, сынок!» или зачем менторство ментору.">
+  </div>
+  <div class="blog-slide__info">
+    <h3 class="blog-slide__title">«Сейчас я тебе все объясню, сынок!» или зачем менторство ментору.</h3>
+    <p class="blog-slide__date">Март 29, 2023</p>
+    <p class="blog-slide__preview">Ни для кого не секрет, что академические знания, получаемые в университете, штука может быть и полезная, но крайне редко применимая в реальной жизни. Путь становления специалиста же, чаще всего, завязан на самообучении и часах проведенных в гугле, ютубе и разного рода профильных курсах. Ну что поделаешь, живем мы...</p>
+    <a class="blog-slide__link link _underline" href="https://vc.ru/hr/649790-seychas-ya-tebe-vse-obyasnyu-synok-ili-zachem-mentorstvo-mentoru" target="_blank">Читать</a>
+    <a href="https://vc.ru/u/1578780-vladislav-sannikov-x-ypa" target="_blank" class="blog-slide__vc blog-slide__vc-desk link secondary">
+      VC.RU
+      <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0.5 1.22949H11.5V12.2295" stroke="#1D1D1D"/>
+        <path d="M11.5 1.22949L0.5 12.2295" stroke="#1D1D1D"/>
+      </svg>
+
+
+
+    </a>
+  </div>
+</div>
+                        <div class="swiper-slide blog-slide">
+  <div class="blog-slide__img">
+    <img src="img/blog_07.webp" alt="Не HH.RU единым: где и как найти работу в 2023.">
+  </div>
+  <div class="blog-slide__info">
+    <h3 class="blog-slide__title">Не HH.RU единым: где и как найти работу в 2023.</h3>
+    <p class="blog-slide__date">апрель 03, 2023</p>
+    <p class="blog-slide__preview">Как ясно из названия, сегодня я расскажу вам о том, как и где можно и нужно искать работу. Сразу в начале статьи договоримся, что про агрегаторы вакансий как место поиска я вам рассказывать не буду, но советы о том, как с ними работать, будут. Просто к сведению обмолвимся о них тут - hh.ru, career.habr.com, grintern.ru Тут, в основном....</p>
+    <a class="blog-slide__link link _underline" href="https://vc.ru/u/1578780-vladislav-sannikov-x-ypa/654425-ne-hh-ru-edinym-gde-i-kak-nayti-rabotu-v-2023" target="_blank">Читать</a>
+    <a href="https://vc.ru/u/1578780-vladislav-sannikov-x-ypa" target="_blank" class="blog-slide__vc blog-slide__vc-desk link secondary">
+      VC.RU
+      <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0.5 1.22949H11.5V12.2295" stroke="#1D1D1D"/>
+        <path d="M11.5 1.22949L0.5 12.2295" stroke="#1D1D1D"/>
+      </svg>
+
+
+
+    </a>
+  </div>
+</div>
+                        <div class="swiper-slide blog-slide">
+  <div class="blog-slide__img">
+    <img src="img/blog_08.webp" alt="«Нам нужен сотрудник!» Как компании выстроить найм. Осторожно — лонгрид.">
+  </div>
+  <div class="blog-slide__info">
+    <h3 class="blog-slide__title">«Нам нужен сотрудник!» Как компании выстроить найм. Осторожно — лонгрид.</h3>
+    <p class="blog-slide__date">апрель 05, 2023</p>
+    <p class="blog-slide__preview">Масштабирование компании дело непростое. Не секрет, что скорость и качество развития компании очень сильно зависит от людей, которые в ней работают. Нельзя взять любого человека с улицы и доверить ему работу, от которой зависит жизнеспособность проекта. В сегодняшней статье я на нескольких примерах, извините, но обезличенных...</p>
+    <a class="blog-slide__link link _underline" href="https://vc.ru/u/1578780-vladislav-sannikov-x-ypa/656681-nam-nuzhen-sotrudnik-kak-kompanii-vystroit-naym-ostorozhno-longrid" target="_blank">Читать</a>
+    <a href="https://vc.ru/u/1578780-vladislav-sannikov-x-ypa" target="_blank" class="blog-slide__vc blog-slide__vc-desk link secondary">
+      VC.RU
+      <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0.5 1.22949H11.5V12.2295" stroke="#1D1D1D"/>
+        <path d="M11.5 1.22949L0.5 12.2295" stroke="#1D1D1D"/>
+      </svg>
+
+
+
+    </a>
+  </div>
+</div>
+                        <div class="swiper-slide blog-slide">
+  <div class="blog-slide__img">
+    <img src="img/blog_09.webp" alt="Я устал, я мухожук: принять решение об увольнении и сообщить об этом.">
+  </div>
+  <div class="blog-slide__info">
+    <h3 class="blog-slide__title">Я устал, я мухожук: принять решение об увольнении и сообщить об этом.</h3>
+    <p class="blog-slide__date">апрель 07, 2023</p>
+    <p class="blog-slide__preview">Порой в жизни настает момент, когда солнце уже не так ярко светит, люди которые раньше вызывали улыбку, теперь становятся причиной нервного тика, а вода из куллера отдает несбывшимися мечтами о блистательной карьере. Грустно, конечно, но поверьте, увольнение в данной ситуации — один из немногих выходов из ситуации...</p>
+    <a class="blog-slide__link link _underline" href="https://vc.ru/hr/658915-ya-ustal-ya-muhozhuk-kak-prinyat-reshenie-ob-uvolnenii-i-soobshchit-ob-etom-rukovodstvu" target="_blank">Читать</a>
+    <a href="https://vc.ru/u/1578780-vladislav-sannikov-x-ypa" target="_blank" class="blog-slide__vc blog-slide__vc-desk link secondary">
+      VC.RU
+      <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0.5 1.22949H11.5V12.2295" stroke="#1D1D1D"/>
+        <path d="M11.5 1.22949L0.5 12.2295" stroke="#1D1D1D"/>
+      </svg>
+
+
+
+    </a>
+  </div>
+</div>
+                        <div class="swiper-slide blog-slide">
+  <div class="blog-slide__img">
+    <img src="img/blog_10.webp" alt="«Я боюсь собеседований»: как подготовиться и не испытывать страх.">
+  </div>
+  <div class="blog-slide__info">
+    <h3 class="blog-slide__title">«Я боюсь собеседований»: как подготовиться и не испытывать страх.</h3>
+    <p class="blog-slide__date">апрель 10, 2023</p>
+    <p class="blog-slide__preview">Если Вы получили приглашение на собеседование, то я вас уже могу поздравить с первым небольшим — вас и ваше резюме оценили и компания первично вами заинтересовалась. Но расслабляться рано! Напоминаю, что факт назначенного собеседования еще не означает, что вы уже приступаете к работе. По статистике из разных...</p>
+    <a class="blog-slide__link link _underline" href="https://vc.ru/hr/661287-ya-ochen-boyus-sobesedovaniy-kak-podgotovitsya-k-sobesedovaniyu-i-ne-ispytyvat-strah-pered-intervyu" target="_blank">Читать</a>
+    <a href="https://vc.ru/u/1578780-vladislav-sannikov-x-ypa" target="_blank" class="blog-slide__vc blog-slide__vc-desk link secondary">
+      VC.RU
+      <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0.5 1.22949H11.5V12.2295" stroke="#1D1D1D"/>
+        <path d="M11.5 1.22949L0.5 12.2295" stroke="#1D1D1D"/>
+      </svg>
+
+
+
+    </a>
+  </div>
+</div>
+                        <div class="swiper-slide blog-slide">
+  <div class="blog-slide__img">
+    <img src="img/blog_11.webp" alt="«Я хуже всех!!», или надежные способы избавиться от синдрома самозванца.">
+  </div>
+  <div class="blog-slide__info">
+    <h3 class="blog-slide__title">«Я хуже всех!!», или надежные способы избавиться от синдрома самозванца.</h3>
+    <p class="blog-slide__date">апрель 12, 2023</p>
+    <p class="blog-slide__preview">«Синдром Самозванца» – состояние человека, при котором он находится в постоянном сомнении в своих успехах, достижениях, профессиональной компетентности. Ему кажется, что все его жизненные удачи – это результат действий окружающих, благоприятного стечения обстоятельств, везения. Согласно статистике, более 70%...</p>
+    <a class="blog-slide__link link _underline" href="https://vc.ru/u/1578780-vladislav-sannikov-x-ypa/663974-ya-huzhe-vseh-ili-nadezhnye-sposoby-izbavitsya-ot-sindroma-samozvanca" target="_blank">Читать</a>
+    <a href="https://vc.ru/u/1578780-vladislav-sannikov-x-ypa" target="_blank" class="blog-slide__vc blog-slide__vc-desk link secondary">
+      VC.RU
+      <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0.5 1.22949H11.5V12.2295" stroke="#1D1D1D"/>
+        <path d="M11.5 1.22949L0.5 12.2295" stroke="#1D1D1D"/>
+      </svg>
+
+
+
+    </a>
+  </div>
+</div>
+                    </div>
+                    <div class="blog__nav">
+                        <div class="swiper-button-prev swiper-button-prev-blog blog__nav-prev blog__nav-arrow">
+                            <svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g>
+                                    <path d="M0.820312 13.1742L0.820313 1.43192L12.5626 1.43192" stroke="#1D1D1D"/>
+                                    <path d="M0.820313 1.43192L12.5626 13.1742" stroke="#1D1D1D"/>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="swiper-button-next swiper-button-next-blog blog__nav-next blog__nav-arrow">
+                            <svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g>
+                                    <path d="M12.1797 13.1742V1.43192H0.437416" stroke="#1D1D1D"/>
+                                    <path d="M12.1797 1.43192L0.437416 13.1742" stroke="#1D1D1D"/>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                    <a href="https://vc.ru/u/1578780-vladislav-sannikov-x-ypa" target="_blank" class="blog-slide__vc blog-slide__vc-mob link secondary">
+                        VC.RU
+                        <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.5 1.22949H11.5V12.2295" stroke="#1D1D1D"/>
+                            <path d="M11.5 1.22949L0.5 12.2295" stroke="#1D1D1D"/>
+                        </svg>
+                    </a>
+                </div>
+            </section>
+            <section class="contacts" id="contacts">
+                <div class="contacts__marquee running-swiper">
+                    <div class="contacts__marquee-wrapper swiper-wrapper">
+                        <div class="contacts__marquee-inner swiper-slide">
+  <span>точечный подбор</span>
+  <img src="img/smile_01.svg" alt="smile-icon">
+  <span>пакет подбора</span>
+  <img src="img/smile_02.svg" alt="smile-icon">
+  <span>hr подписка</span>
+  <img src="img/smile_03.svg" alt="smile-icon">
+</div>
+                        <div class="contacts__marquee-inner swiper-slide">
+  <span>точечный подбор</span>
+  <img src="img/smile_01.svg" alt="smile-icon">
+  <span>пакет подбора</span>
+  <img src="img/smile_02.svg" alt="smile-icon">
+  <span>hr подписка</span>
+  <img src="img/smile_03.svg" alt="smile-icon">
+</div>
+                        <div class="contacts__marquee-inner swiper-slide">
+  <span>точечный подбор</span>
+  <img src="img/smile_01.svg" alt="smile-icon">
+  <span>пакет подбора</span>
+  <img src="img/smile_02.svg" alt="smile-icon">
+  <span>hr подписка</span>
+  <img src="img/smile_03.svg" alt="smile-icon">
+</div>
+                    </div>
+                </div>
+                <div class="contacts__inner container">
+                    <p class="contacts__title">
+                        <span>WANT TO HAVE</span>
+                        <span><img class="contacts__img" src="img/contacts.png" alt="YPA Tech Founder"> a talk?;)</span>
+                    </p>
+                    <form class="form contacts__form" action="" method="post" id="form">
+                        <label class="form__label">
+                            <input class="form__input form__input-dark" type="text" placeholder="Имя" id="name" name="name">
+                        </label>
+                        <label class="form__label">
+                            <input class="form__input form__input-dark" type="email" placeholder="E-mail" id="email" name="email">
+                        </label>
+                        <label class="form__label">
+                            <input class="form__input form__input-dark" type="tel" placeholder="Телефон" id="phone" name="phone">
+                        </label>
+                        <button class="modal__btn button button__dark" id="submit" type="submit">
+                            <span>Оставить заявку</span>
+                        </button>
+                    </form>
+                </div>
+                <footer class="footer">
+                      <div class="footer__inner">
+    <div class="footer__logo">
+      <img src="img/logo-light.svg" alt="Your Personal Agent Technology">
+    </div>
+    <nav class="footer__nav">
+      <div class="footer__nav-col">
+        <ul class="footer__list">
+          <li class="footer__item"><span>E-mail</span></li>
+          <li class="footer__item"><a href="mailto:info@ypacrew.tech">info@ypacrew.tech</a></li>
+        </ul>
+        <ul class="footer__list">
+          <li class="footer__item"><span>telephone</span></li>
+          <li class="footer__item"><a href="tel:+79997350902">+7 999 735-09-02</a></li>
+        </ul>
+      </div>
+      <div class="footer__nav-col">
+        <ul class="footer__list">
+          <li class="footer__item"><span>Socials</span></li>
+          <li class="footer__item"><a href="https://t.me/ypacrew" target="_blank">telegram</a></li>
+          <li class="footer__item"><a href="https://wa.me/79997350902" target="_blank">whatsapp</a></li>
+          <li class="footer__item"><a href="https://www.linkedin.com/company/ypacrew/" target="_blank">linkedin</a></li>
+          <li class="footer__item"><a href="https://vc.ru/u/1578780-vladislav-sannikov-x-ypa" target="_blank">vc.ru</a></li>
+        </ul>
+      </div>
+      <div class="footer__nav-col">
+        <ul class="footer__list">
+          <li class="footer__item"><a href="#service">услуги</a></li>
+          <li class="footer__item"><a href="#team">команда</a></li>
+          <li class="footer__item"><a href="#process">процесс</a></li>
+          <li class="footer__item"><a href="#feedback">отзывы</a></li>
+          <li class="footer__item"><a href="#blog">блог</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p class="footer__cr">Copyright ©Your Personal Agent, 2023</p>
+  </div>
+
+                </footer>
+            </section>
+        </main>
+    </div>
+    <div class="modal modal--form">
+    <div class="modal__bg _close-modal"></div>
+
+    <div class="modal__dialog">
+        <button type="button" class="_close-modal modal__close" aria-label="Close">
+            <svg viewBox="0 0 76 76" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M73 73L3 3" stroke="white" stroke-width="6"/>
+                <path d="M3 73L73 3" stroke="white" stroke-width="6"/>
+            </svg>
+        </button>
+        <div class="modal__inner js-modal-content">
+            <div class="modal__title">
+                <span>let’s </span>
+                <span>talk;)</span>
             </div>
-          </div>
-          <div class="slider__nav">
-            <div class="slider__prev"><img src="assets/arrowPrev-eb9f4c2c.svg" alt=""></div>
-            <div class="slider__next"><img src="assets/arrowNext-1d91103a.svg" alt=""></div>
-          </div>
+            <form class="modal__form form js-modal-form" action="" method="post" name="modal_form" id="modal-form">
+                <label class="form__label">
+                    <input class="form__input form__input-light js-modal-input" id="modal-name" name="name" type="text" placeholder="Имя">
+                </label>
+                <label class="form__label">
+                    <input class="form__input form__input-light js-modal-input" id="modal-email" name="email" type="email" placeholder="E-mail">
+                </label>
+                <label class="form__label">
+                    <input class="form__input form__input-light js-modal-input" id="modal-phone" name="phone" type="tel" placeholder="Телефон">
+                </label>
+                <button class="modal__btn button button__light" type="submit" id="js-modal-submit">
+                    <span>Оставить заявку</span>
+                </button>
+            </form>
         </div>
-      </section>
-      <section class="main__accounts accounts container">
-        <div class="accounts__heading">
-          <h2 class="title-h2 animated-title">
-            <span>our accounts</span>
-            <img class="js-animated-title-bg" src="assets/gradient-bg-bb1a3d9f.png" alt="1">
-          </h2>
-          <p>
-            <span class="caption js-animated">28 million subscribers net ig</span>
-          </p>
-        </div>
-        <div class="accounts__content">
-          <img src="assets/bracket-5a61967b.svg" alt="" class="slider__brecket slider__brecket--left">
-          <img src="assets/bracket-5a61967b.svg" alt="" class="slider__brecket slider__brecket--right">
-          <div class="swiper mySwiperSec">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide"><img src="assets/sw1-ee7b652b.png" alt="1"></div>
-              <div class="swiper-slide"><img src="assets/sw2-368ba42c.png" alt="1"></div>
-              <div class="swiper-slide"><img src="assets/sw3-da6105f9.png" alt="1"></div>
-              <div class="swiper-slide"><img src="assets/sw4-14dbafa1.png" alt="1"></div>
-              <div class="swiper-slide"><img src="assets/sw5-1726097d.png" alt="1"></div>
-              <div class="swiper-slide"><img src="assets/sw6-b2506bb3.png" alt="1"></div>
-              <div class="swiper-slide"><img src="assets/sw7-7fe11d9b.png" alt="1"></div>
-              <div class="swiper-slide"><img src="assets/sw8-b1c5693e.png" alt="1"></div>
-              <div class="swiper-slide"><img src="assets/sw9-a22869fe.png" alt="1"></div>
-              <div class="swiper-slide"><img src="assets/sw10-62acbb1b.png" alt="1"></div>
-              <div class="swiper-slide"><img src="assets/sw11-194481db.png" alt="1"></div>
-              <div class="swiper-slide"><img src="assets/sw12-ae1b70a1.png" alt="1"></div>
-              <div class="swiper-slide"><img src="assets/sw13-3991f11b.png" alt="1"></div>
-              <div class="swiper-slide"><img src="assets/sw14-6d23f920.png" alt="1"></div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="main__work work container" id="work">
-        <h2 class="animated-title">
-          <span class="title-h2">work & projects</span>
-          <img class="js-animated-title-bg" src="assets/gradient-bg-bb1a3d9f.png" alt="1">
-        </h2>
-        <div class="work__content">
-          <img src="assets/bracket-5a61967b.svg" alt="" class="slider__brecket slider__brecket--left">
-          <img src="assets/bracket-5a61967b.svg" alt="" class="slider__brecket slider__brecket--right">
-          <div class="swiper mySwiperThird">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide"><img src="assets/swi1-e4ce56b9.png" alt="1"></div>
-              <div class="swiper-slide"><img src="assets/swi2-fbc3ae20.png" alt="1"></div>
-              <div class="swiper-slide"><img src="assets/swi3-b51c3533.png" alt="1"></div>
-              <div class="swiper-slide"><img src="assets/swi4-b8d90dcc.png" alt="1"></div>
-              <div class="swiper-slide"><img src="assets/swi5-327d5172.png" alt="1"></div>
-            </div>
-          </div>
-          <div class="slider__nav">
-            <div class="slider__prev"><img src="assets/arrowPrev-eb9f4c2c.svg" alt=""></div>
-            <div class="slider__next"><img src="assets/arrowNext-1d91103a.svg" alt=""></div>
-          </div>
-        </div>
-      </section>
-      <section class="main__contacts contacts container" id="contacts">
-        <div class="contacts__heading">
-          <h2 class="animated-title">
-            <span>Contacts</span>
-            <img class="js-animated-title-bg" src="assets/gradient-bg-bb1a3d9f.png" alt="1">
-          </h2>
-          <a class="contacts__link mail__link" href="mailto:info@akm-originals.com" target="_blank">
-            <span class="js-animated">info@akm-originals.com</span></a>
-          <ul class="contacts__list-social">
-            <li class="contacts__item-social"><a href="https://wa.me/6281246341693" target="_blank" class="contacts__link-social"><img src="assets/wa-b9aa4960.svg" alt="wa"></a></li>
-            <li class="contacts__item-social"><a href="https://instagram.com/akm.originals?igshid=YWJhMjlhZTc=" target="_blank" class="contacts__link-social"><img src="assets/instagram-0caaa836.svg" alt="instagram"></a></li>
-            <li class="contacts__item-social"><a href="https://t.me/LabelProd" target="_blank" class="contacts__link-social"><img src="assets/tg-05b7b9ce.svg" alt="telegram"></a></li>
-          </ul>
-        </div>
-        <div class="contacts__inner">
-          <p class="contacts__caption">
-            <span class="contacts__text gradient-text animated-text">Let’s make your project a reality</span>
-            <span class="contacts__subtext js-animated">Feel free to reach out if you want to collaborate with us, or simply have a chat.</span>
-          </p>
-          <form action="POST" id="form" class="contacts__form form">
-            <label for="name" class="form-label">
-              <input type="text" id="name" name="name" class="form-input" placeholder="Name">
-            </label>
-            <label for="email" class="form-label">
-              <input type="text" id="email" name="email" class="form-input" placeholder="mail@example.com">
-            </label>
-            <label for="phone" class="form-label">
-              <input type="text" id="phone" name="phone" class="form-input" placeholder="Phone">
-            </label>
-            <button class="cta__link form-button" id="submit">Get in touch</button>
-          </form>
-        </div>
-      </section>
-      <section id="formPopup" class="form-popup"></section>
-    </main>
-    <footer class="footer container">
-      <span class="animated-text gradient-text">©AKM ORIGINALS 2023</span>
-      <a href="./policy.html" target="_blank" class="animated-text gradient-text">POLICY</a>
-    </footer>
-  </body>
+    </div>
+</div>
+
+    <div class="modal modal--success">
+  <div class="modal__bg _close-modal"></div>
+
+  <div class="modal__dialog">
+    <button type="button" class="_close-modal modal__close" aria-label="Close">
+      <svg viewBox="0 0 76 76" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M73 73L3 3" stroke="white" stroke-width="6"/>
+        <path d="M3 73L73 3" stroke="white" stroke-width="6"/>
+      </svg>
+    </button>
+    <div class="modal__inner js-modal-content">
+      <div class="modal__title modal__title-sent">
+        SENT
+        <svg viewBox="0 0 101 101" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M50.5 0C22.6097 0 0 22.6097 0 50.5C0 78.3903 22.6097 101 50.5 101C78.3903 101 101 78.3903 101 50.5C101 22.6097 78.3903 0 50.5 0ZM81.4477 81.4477C73.7739 89.0986 63.5264 93.6184 52.7021 94.1266C41.8779 94.6347 31.2521 91.0947 22.8953 84.1963C14.5385 77.2979 9.04931 67.5354 7.49733 56.8109C5.94534 46.0864 8.44172 35.1682 14.5001 26.1838C20.5584 17.1993 29.7447 10.7922 40.2689 8.21093C50.7932 5.62962 61.9016 7.05901 71.4295 12.2206C80.9575 17.3821 88.2225 25.9061 91.8089 36.1316C95.3954 46.3571 95.0464 57.5516 90.8299 67.5339C88.6324 72.7353 85.4461 77.4606 81.4477 81.4477Z" fill="#1D1D1D"/>
+          <path d="M37.0339 38.7168H28.6172V47.1335H37.0339V38.7168Z" fill="#1D1D1D"/>
+          <path d="M72.3854 38.7168H63.9688V47.1335H72.3854V38.7168Z" fill="#1D1D1D"/>
+          <path d="M67.8149 61.2734C66.5126 64.5597 64.2504 67.3774 61.3232 69.3592C58.396 71.3409 54.9397 72.3948 51.4048 72.3834H49.5952C46.0601 72.3949 42.6037 71.3411 39.6763 69.3594C36.749 67.3776 34.4867 64.5598 33.1844 61.2734L32.9152 60.6001H25.6641L26.9333 63.7734C28.745 68.3026 31.8722 72.1851 35.9115 74.92C39.9509 77.6548 44.7171 79.1166 49.5952 79.1168H51.4048C56.2829 79.1166 61.049 77.6548 65.0884 74.92C69.1277 72.1851 72.255 68.3026 74.0666 63.7734L75.3359 60.6001H68.0841L67.8149 61.2734Z" fill="#1D1D1D"/>
+        </svg>
+      </div>
+      <p class="modal__subtitle">уже работаем над вашим запросом;)</p>
+    </div>
+  </div>
+</div>
+
+    <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
+<script src="js/libs.min.js"></script>
+<script src="js/main.min.js"></script>
+
+</body>
 </html>
